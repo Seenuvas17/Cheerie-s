@@ -1,0 +1,175 @@
+.feature {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.feature > .first-block {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.feature > .first-block:hover {
+
+    box-shadow: 0px 0px 50px 2px rgb(255, 185, 227);
+
+}
+
+.feature > .first-block > .deliver-icon {
+    display: flex;
+    width: 200px;
+    height: 100%;
+    justify-content: center;
+    margin: 10px;
+}
+.feature > .first-block > .deliver-icon i {
+    font-size: 2em;
+    color: #A52D86;
+}
+
+.feature > .first-block >.deliver-heading {
+    display: flex;
+    width: 200px;
+    height: 100%;
+    margin: 10px;
+    font-family: 'Oswald', sans-serif;
+    color: #FF00C7;
+    font-size: 1.5em;
+    justify-content: center;
+}
+
+.feature > .first-block > .deliver-sub {
+    display: flex;
+    width: 200px;
+    height: 100%;
+    margin: 10px;
+    font-family: 'Oswald',sans-serif;
+    color: #76005c;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+
+
+.feature > .second-block {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.feature > .second-block:hover {
+
+    box-shadow: 0px 0px 50px 2px rgb(255, 185, 227);
+
+}
+
+.feature > .second-block > .cake-icon {
+    display: flex;
+    width: 200px;
+    height: 100%;
+    justify-content: center;
+    margin: 10px;
+}
+
+.feature > .second-block > .cake-icon i {
+    font-size: 2em;
+    color: #A52D86;
+}
+
+.feature > .second-block >.cake-heading {
+    display: flex;
+    width: 200px;
+    height: 100%;
+    margin: 10px;
+    font-family: 'Oswald', sans-serif;
+    color: #FF00C7;
+    font-size: 1.5em;
+    justify-content: center;
+}
+
+.feature > .second-block > .cake-sub {
+    display: flex;
+    width: 200px;
+    height: 100%;
+    margin: 10px;
+    font-family: 'Oswald',sans-serif;
+    color: #76005c;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+
+
+.feature > .third-block {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.feature > .third-block:hover {
+
+    box-shadow: 0px 0px 50px 2px rgb(255, 185, 227);
+
+}
+
+.feature > .third-block > .party-icon {
+    display: flex;
+    width: 200px;
+    height: 100%;
+    justify-content: center;
+    margin: 10px;
+}
+.feature > .third-block > .party-icon i {
+    font-size: 2em;
+    color: #A52D86;
+}
+
+.feature > .third-block >.party-heading {
+    display: flex;
+    width: 200px;
+    height: 100%;
+    margin: 10px;
+    font-family: 'Oswald', sans-serif;
+    color: #FF00C7;
+    font-size: 1.5em;
+    justify-content: center;
+}
+
+.feature > .third-block > .party-sub {
+    display: flex;
+    width: 200px;
+    height: 100%;
+    margin: 10px;
+    font-family: 'Oswald',sans-serif;
+    color: #76005c;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    text-align: center;
+}

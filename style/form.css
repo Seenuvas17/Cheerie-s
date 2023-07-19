@@ -1,0 +1,105 @@
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-wrapper > .form-group input {
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    color: inherit;
+    width: 93%;
+    border-radius: 2px;
+    border: none;
+    border-bottom: 3px solid rgb(123, 123, 123);
+    display: block;
+    padding: 10px 20px;
+    transition: all 0.3s;
+}
+
+.form-wrapper > .form-group textarea {
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    color: inherit;
+    width: 92%;
+    height: 150px;
+    border: 3px solid rgb(123, 123, 123);
+    border-radius: 3px;
+    display: block;
+    padding: 10px 20px;
+    transition: all 0.3s;
+    margin-top: 40px;
+}
+
+.form-wrapper label {
+    display: block;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+    color: #76005c;
+    padding: 10px 20px;
+    visibility: hidden;
+    opacity: 0;
+
+}
+
+.form-wrapper input:focus {
+    outline: none;
+    box-shadow: 0 0.25rem 0.5rem rgb(255, 181, 225);
+    border: none;
+    border-bottom: 3px solid #76005c;
+}
+
+.form-wrapper textarea:focus{
+    outline: none;
+    box-shadow: 0 0.25rem 0.5rem rgb(255, 181, 225);
+    border: 3px solid #76005c;
+}
+
+.form-wrapper input:focus + label {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0.1rem);
+}
+
+.form-wrapper > .center-button-wrapper button {
+    padding: 10px 20px;
+    background-color: #76005c;
+    color: #fff;
+    border: solid #76005c;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 10px;
+    outline: none;
+    transition: 0.1s;
+}
+
+.form-wrapper textarea:focus + label {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0.1rem);
+}
+
+.form-wrapper input::-webkit-input-placeholder , .form-wrapper textarea::-webkit-input-placeholder {
+    color: rgb(123, 123, 123);
+
+}
+
+.form-wrapper input:focus::-webkit-input-placeholder , .form-wrapper textarea:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.form-wrapper > .center-button-wrapper {
+    display: flex;
+    justify-content: center;
+    height: 60px;
+}
+
+.form-wrapper > .center-button-wrapper button:hover {
+    box-shadow: 5px 5px  rgb(6, 4, 6);
+}
+
+
+.form-wrapper > .center-button-wrapper button:active {
+    background-color: #FF00C7;
+    box-shadow: 5px 5px  transparent;
+    border: none;
+    padding: 0px -5px;
+}

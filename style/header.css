@@ -1,0 +1,141 @@
+.header-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    height: 215px;
+    width: 100%;
+}
+
+.header-wrapper > .middle-column {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.header-wrapper > .middle-column > .footer-image img {
+    width: 150px;
+    height: 80%;
+    margin-top: 20px ;
+}
+
+.header-wrapper > .middle-column > .navigator-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    margin-top: 40px;
+}
+
+.header-wrapper > .middle-column > .navigator-wrapper > .navigator a {
+    display: flex;
+    width: 75px;
+    height: 100%;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    color: #A52D86;
+    font-size: 0.85em;
+    transition: 0.8s;
+}
+
+.header-wrapper > .middle-column > .navigator-wrapper > .navigator a:hover {
+    letter-spacing: 0.05em;
+    color: #FF00C7;
+}
+
+.header-wrapper > .phone-wrapper > .info-set > .number {
+    display: flex;
+    font-family: 'Oswald', sans-serif;
+    color: #A52D86;
+    width: 85px;
+    height: 100%;
+    justify-content: left;
+}
+
+.header-wrapper > .phone-wrapper > .info-set > .time{
+    display: flex;
+    font-family: 'Oswald', sans-serif;
+    justify-content: left;
+    color: #e600b3;
+    width: 95px;
+    height: 100%;
+}
+
+.header-wrapper > .phone-wrapper > .info-set > .time h5 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+
+.header-wrapper > .phone-wrapper > .info-set {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: start;
+    align-content: flex-start;
+}
+
+.header-wrapper > .phone-wrapper > .phone-icon  {
+    display: flex;
+    width: 24px;
+    height: 54px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-right: 17px;
+    margin-left: 50px;
+}
+.header-wrapper > .phone-wrapper > .phone-icon i {
+    font-size: 1.5em;
+    width: 24px;
+    height: 24px;
+}
+
+.header-wrapper > .phone-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-wrapper > .address-wrapper > .address {
+    display: flex;
+    font-family: 'Oswald', sans-serif;
+    color: #A52D86;
+    width: 115px;
+    height: 100%;
+    justify-content: left;
+}
+
+.header-wrapper > .address-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-wrapper > .address-wrapper > .address-icon  {
+    display: flex;
+    width: 24px;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+.header-wrapper > .address-wrapper > .address-icon i {
+    font-size: 1.5em;
+    width: 24px;
+    height: 24px;
+    text-align: right;
+}
+
+
+
